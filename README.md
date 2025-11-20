@@ -55,3 +55,6 @@ This addon requires the following permissions:
 2. It checks if you're already on an archive page (archive.today, archive.is, or archive.ph)
 3. If not, it encodes the URL and redirects to `https://archive.today/[encoded-url]`
 4. Archive.today handles the rest - finding existing archives or creating new ones
+
+## Acknowledgement
+The icons are from [flaticon](https://www.flaticon.com/free-icon/box_685383?term=archive&page=1&position=48&origin=search&related_id=685383).
