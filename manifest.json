@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Archive.today Redirector",
+  "version": "1.0",
+  "description": "Redirect current page to its corresponding page on archive.today",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    },
+    "default_title": "View on Archive.today"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
